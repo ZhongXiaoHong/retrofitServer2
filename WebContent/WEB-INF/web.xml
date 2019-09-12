@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<web-app version="2.5"   
+    xmlns="http://java.sun.com/xml/ns/javaee"   
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   
+    http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">  
+  <servlet>  
+     <!-- 类名 -->  
+    <servlet-name>PropertyServlet</servlet-name>  
+    <!-- 所在的包 -->  
+    <servlet-class>com.silang.retrofitserver</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>PropertyServlet</servlet-name>  
+    <!-- 访问的网址 -->  
+    <url-pattern>/retrofitServer2/PropertyServlet/silang1/property</url-pattern>  
+    </servlet-mapping>  
+    
+    
+    
+      <servlet>  
+     <!-- 类名 -->  
+    <servlet-name>PropertyListServlet</servlet-name>  
+    <!-- 所在的包 -->  
+    <servlet-class>com.silang.retrofitserver</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>PropertyListServlet</servlet-name>  
+    <!-- 访问的网址 -->  
+    <url-pattern>/retrofitServer2/PropertyListServlet</url-pattern>  
+    </servlet-mapping>
+
+
+
+
+	<servlet>
+		<!-- 类名 -->
+		<servlet-name>PropertyListPostFormUrlencodedServlet</servlet-name>
+		<!-- 所在的包 -->
+		<servlet-class>com.silang.retrofitserver</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PropertyListPostFormUrlencodedServlet</servlet-name>
+		<!-- 访问的网址 -->
+		<url-pattern>/retrofitServer2/PropertyListPostFormUrlencodedServlet</url-pattern>
+	</servlet-mapping>  
+	
+	
+	
+	
+		<servlet>
+		<!-- 类名 -->
+		<servlet-name>UploadServlet</servlet-name>
+		<!-- 所在的包 -->
+		<servlet-class>com.silang.retrofitserver</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadServlet</servlet-name>
+		<!-- 访问的网址 -->
+		<url-pattern>/retrofitServer2/UploadServlet</url-pattern>
+	</servlet-mapping> 
+	
+	
+		<servlet>
+		<!-- 类名 -->
+		<servlet-name>UploadFileAndTextServlet</servlet-name>
+		<!-- 所在的包 -->
+		<servlet-class>com.silang.retrofitserver</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadFileAndTextServlet</servlet-name>
+		<!-- 访问的网址 -->
+		<url-pattern>/retrofitServer2/UploadFileAndTextServlet</url-pattern>
+	</servlet-mapping>   
+</web-app>  
